@@ -1,213 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.9" apprev="20995" hassounds="0" start="node1">
+<tour hassounds="0" appversion="7.1.9" apprev="20995" start="node1">
   <panorama id="node1">
-    <input levelbias="0.400" width="721" levelingroll="0" cylinder="1" leveltilesize="510" height="959" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="959" width="721"/>
-      <level preload="1" predecode="1" height="479" width="360"/>
+    <input levelbiashidpi="1.000" width="721" leveltilesize="510" flat="1" levelingroll="0" height="959" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="959" preload="0" width="721" predecode="0"/>
+      <level height="479" preload="1" width="360" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="" source="" description="◻︎和菓子盛り合わせ（日式甜點拼盤）- $250&#xa;    #鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅&#xa;&#xa;◻︎揚物盛り合わせ（日式鹹食拼盤）- $250&#xa;   #奶油螃蟹＋綜合可樂餅 x2 &#xa;&#xa;◻︎最中餅盛り合わせ（和菓子DIY拼盤）- $250&#xa;   #最中餅殼 x4 ＋萩餅 x2 ＋白玉丸子&#xa;&#xa;◻︎花見団子盛り合わせ（日式枯山水拼盤） - $180&#xa;   #三色糯米丸子 x2 ＋甜醬油" datetime="2023/4/21 14:54" latitude="" info="" title="盛り合わせ（日式茶點拼盤）" customnodeid="" nodeid="node1" copyright="" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="" title="盛り合わせ（日式茶點拼盤）" copyright="" info="" longitude="" comment="" customnodeid="" description="◻︎和菓子盛り合わせ（日式甜點拼盤）- $250&#xa;    #鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅&#xa;&#xa;◻︎揚物盛り合わせ（日式鹹食拼盤）- $250&#xa;   #奶油螃蟹＋綜合可樂餅 x2 &#xa;&#xa;◻︎最中餅盛り合わせ（和菓子DIY拼盤）- $250&#xa;   #最中餅殼 x4 ＋萩餅 x2 ＋白玉丸子&#xa;&#xa;◻︎花見団子盛り合わせ（日式枯山水拼盤） - $180&#xa;   #三色糯米丸子 x2 ＋甜醬油" nodeid="node1" datetime="2023/4/21 14:54" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbias="0.400" width="4942" levelingroll="0" cylinder="1" leveltilesize="510" height="3295" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="3295" width="4942"/>
-      <level preload="0" predecode="0" height="1647" width="2471"/>
-      <level preload="0" predecode="0" height="823" width="1235"/>
-      <level preload="0" predecode="0" height="411" width="617"/>
-      <level preload="1" predecode="1" height="205" width="308"/>
+    <input levelbiashidpi="1.000" width="4942" leveltilesize="510" flat="1" levelingroll="0" height="3295" overlap="1" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="3295" preload="0" width="4942" predecode="0"/>
+      <level height="1647" preload="0" width="2471" predecode="0"/>
+      <level height="823" preload="0" width="1235" predecode="0"/>
+      <level height="411" preload="0" width="617" predecode="0"/>
+      <level height="205" preload="1" width="308" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="James Lee" source="" description="-- 日式枯山水拼盤 -- &#xa;三色糯米丸子 x2 ＋甜醬油" datetime="2023/4/16 11:27" latitude="" info="" title="花見団子盛り合わせ" customnodeid="" nodeid="node7" copyright="jp-image.space" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="James Lee" title="花見団子盛り合わせ" copyright="jp-image.space" info="" longitude="" comment="" customnodeid="" description="-- 日式枯山水拼盤 -- &#xa;三色糯米丸子 x2 ＋甜醬油" nodeid="node7" datetime="2023/4/16 11:27" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" width="7326" levelingroll="0" cylinder="1" leveltilesize="510" height="4884" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="4884" width="7326"/>
-      <level preload="0" predecode="0" height="2442" width="3663"/>
-      <level preload="0" predecode="0" height="1221" width="1831"/>
-      <level preload="0" predecode="0" height="610" width="915"/>
-      <level preload="1" predecode="1" height="305" width="457"/>
+    <input levelbiashidpi="1.000" width="7326" leveltilesize="510" flat="1" levelingroll="0" height="4884" overlap="1" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="4884" preload="0" width="7326" predecode="0"/>
+      <level height="2442" preload="0" width="3663" predecode="0"/>
+      <level height="1221" preload="0" width="1831" predecode="0"/>
+      <level height="610" preload="0" width="915" predecode="0"/>
+      <level height="305" preload="1" width="457" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="James Lee" source="" description="小京都。焦糖布丁 - $ 150" datetime="2023/4/16 11:28" latitude="" info="" title="洋菓子 ＃以現場販售為主" customnodeid="" nodeid="node8" copyright="jp-image.space" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="James Lee" title="洋菓子 ＃以現場販售為主" copyright="jp-image.space" info="" longitude="" comment="" customnodeid="" description="小京都。焦糖布丁 - $ 150" nodeid="node8" datetime="2023/4/16 11:28" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" width="1280" levelingroll="0" cylinder="1" leveltilesize="510" height="853" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="853" width="1280"/>
-      <level preload="0" predecode="0" height="426" width="640"/>
-      <level preload="1" predecode="1" height="213" width="320"/>
+    <input levelbiashidpi="1.000" width="1280" leveltilesize="510" flat="1" levelingroll="0" height="853" overlap="1" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="853" preload="0" width="1280" predecode="0"/>
+      <level height="426" preload="0" width="640" predecode="0"/>
+      <level height="213" preload="1" width="320" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="" source="" description="鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅 - $250" datetime="2023/4/21 14:58" latitude="" info="" title="和菓子盛り合わせ（日式甜點拼盤）" customnodeid="" nodeid="node4" copyright="" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="" title="和菓子盛り合わせ（日式甜點拼盤）" copyright="" info="" longitude="" comment="" customnodeid="" description="鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅 - $250" nodeid="node4" datetime="2023/4/21 14:58" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" width="1280" levelingroll="0" cylinder="1" leveltilesize="510" height="853" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="853" width="1280"/>
-      <level preload="0" predecode="0" height="426" width="640"/>
-      <level preload="1" predecode="1" height="213" width="320"/>
+    <input levelbiashidpi="1.000" width="1280" leveltilesize="510" flat="1" levelingroll="0" height="853" overlap="1" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="853" preload="0" width="1280" predecode="0"/>
+      <level height="426" preload="0" width="640" predecode="0"/>
+      <level height="213" preload="1" width="320" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="" source="" description="奶油螃蟹＋綜合可樂餅 x2 - $250" datetime="2023/4/21 14:58" latitude="" info="" title="揚物盛り合わせ（日式鹹食拼盤)" customnodeid="" nodeid="node5" copyright="" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="" title="揚物盛り合わせ（日式鹹食拼盤)" copyright="" info="" longitude="" comment="" customnodeid="" description="奶油螃蟹＋綜合可樂餅 x2 - $250" nodeid="node5" datetime="2023/4/21 14:58" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" width="1141" levelingroll="0" cylinder="1" leveltilesize="510" height="752" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="752" width="1141"/>
-      <level preload="0" predecode="0" height="376" width="570"/>
-      <level preload="1" predecode="1" height="188" width="285"/>
+    <input levelbiashidpi="1.000" width="1141" leveltilesize="510" flat="1" levelingroll="0" height="752" overlap="1" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="752" preload="0" width="1141" predecode="0"/>
+      <level height="376" preload="0" width="570" predecode="0"/>
+      <level height="188" preload="1" width="285" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="" source="" description="口味有：&#xa;麻吉紅豆-- $150&#xa;打啵起士-- $150&#xa;一半一半-- $150" datetime="2023/4/21 14:58" latitude="" info="" title="柴田燒 (一盒6枚入）" customnodeid="" nodeid="node2" copyright="" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="" title="柴田燒 (一盒6枚入）" copyright="" info="" longitude="" comment="" customnodeid="" description="口味有：&#xa;麻吉紅豆-- $150&#xa;打啵起士-- $150&#xa;一半一半-- $150" nodeid="node2" datetime="2023/4/21 14:58" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" width="5472" levelingroll="0" cylinder="1" leveltilesize="510" height="3648" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="3648" width="5472"/>
-      <level preload="0" predecode="0" height="1824" width="2736"/>
-      <level preload="0" predecode="0" height="912" width="1368"/>
-      <level preload="0" predecode="0" height="456" width="684"/>
-      <level preload="1" predecode="1" height="228" width="342"/>
+    <input levelbiashidpi="1.000" width="5472" leveltilesize="510" flat="1" levelingroll="0" height="3648" overlap="1" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="3648" preload="0" width="5472" predecode="0"/>
+      <level height="1824" preload="0" width="2736" predecode="0"/>
+      <level height="912" preload="0" width="1368" predecode="0"/>
+      <level height="456" preload="0" width="684" predecode="0"/>
+      <level height="228" preload="1" width="342" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="James Lee" source="" description="口味有：&#xa;麻吉紅豆-- $150&#xa;打啵起士-- $150&#xa;一半一半-- $150" datetime="2023/4/16 11:26" latitude="" info="" title="柴田燒 (一盒6枚入）" customnodeid="" nodeid="node6" copyright="jp-image.space" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="James Lee" title="柴田燒 (一盒6枚入）" copyright="jp-image.space" info="" longitude="" comment="" customnodeid="" description="口味有：&#xa;麻吉紅豆-- $150&#xa;打啵起士-- $150&#xa;一半一半-- $150" nodeid="node6" datetime="2023/4/16 11:26" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" width="1138" levelingroll="0" cylinder="1" leveltilesize="510" height="759" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="759" width="1138"/>
-      <level preload="0" predecode="0" height="379" width="569"/>
-      <level preload="1" predecode="1" height="189" width="284"/>
+    <input levelbiashidpi="1.000" width="1138" leveltilesize="510" flat="1" levelingroll="0" height="759" overlap="1" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="759" preload="0" width="1138" predecode="0"/>
+      <level height="379" preload="0" width="569" predecode="0"/>
+      <level height="189" preload="1" width="284" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="" source="" description="斗財。深焙美式（濃厚榛果系）-（冰/熱）$110&#xa;囍妹。淺焙美式（微酸果香系）-（冰/熱）$110&#xa;有春。深焙拿鐵（濃郁回甘系）-（冰/熱）$130&#xa;小春。淺焙拿鐵（清新微甜系）-（冰/熱）$130&#xa;可樂。碳酸咖啡 - 冰 $130&#xa;雪碧。碳酸咖啡 - 冰 $130&#xa;義式。羅馬青檸 - 冰 $140&#xa;日式。黃金青柚 - (冰/熱）$140&#xa;黑柴黑糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160&#xa;赤柴焦糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160" datetime="2023/4/21 14:58" latitude="" info="" title="咖啡" customnodeid="" nodeid="node3" copyright="" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="" title="咖啡" copyright="" info="" longitude="" comment="" customnodeid="" description="斗財。深焙美式（濃厚榛果系）-（冰/熱）$110&#xa;囍妹。淺焙美式（微酸果香系）-（冰/熱）$110&#xa;有春。深焙拿鐵（濃郁回甘系）-（冰/熱）$130&#xa;小春。淺焙拿鐵（清新微甜系）-（冰/熱）$130&#xa;可樂。碳酸咖啡 - 冰 $130&#xa;雪碧。碳酸咖啡 - 冰 $130&#xa;義式。羅馬青檸 - 冰 $140&#xa;日式。黃金青柚 - (冰/熱）$140&#xa;黑柴黑糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160&#xa;赤柴焦糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160" nodeid="node3" datetime="2023/4/21 14:58" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelbias="0.400" width="3895" levelingroll="0" cylinder="1" leveltilesize="510" height="2597" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" flat="1" overlap="1">
-      <level preload="0" predecode="0" height="2597" width="3895"/>
-      <level preload="0" predecode="0" height="1298" width="1947"/>
-      <level preload="0" predecode="0" height="649" width="973"/>
-      <level preload="1" predecode="1" height="324" width="486"/>
+    <input levelbiashidpi="1.000" width="3895" leveltilesize="510" flat="1" levelingroll="0" height="2597" overlap="1" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" cylinder="1" levelingpitch="0">
+      <level height="2597" preload="0" width="3895" predecode="0"/>
+      <level height="1298" preload="0" width="1947" predecode="0"/>
+      <level height="649" preload="0" width="973" predecode="0"/>
+      <level height="324" preload="1" width="486" predecode="1"/>
       <preview color="0x808080"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="500" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovstereographic="330" tilt="90" fov="140" fovfisheye="360" scaletofit="0" pan="360"/>
+    <view pannorth="0" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="330" pan="360" fovfisheye="360" fov="140" tilt="90" scaletofit="0"/>
     </view>
-    <userdata author="James Lee" source="" description="" datetime="2023/4/16 11:21" latitude="" info="" title="" customnodeid="" nodeid="node10" copyright="jp-image.space" heading="0" tags="" longitude="" comment=""/>
-    <hotspots height="20" wordwrap="1" smoothmovement="0" width="180">
-      <label textcolor="0x000000" height="20" backgroundalpha="1" wordwrap="1" backgroundcolor="0xffffff" background="1" border="1" enabled="1" bordercolor="0x000000" borderalpha="1" textalpha="1" borderradius="1" width="180"/>
-      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <userdata source="" author="James Lee" title="" copyright="jp-image.space" info="" longitude="" comment="" customnodeid="" description="" nodeid="node10" datetime="2023/4/16 11:21" tags="" latitude="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label backgroundcolor="0xffffff" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1" height="20" textcolor="0x000000" borderradius="1" textalpha="1" wordwrap="1" enabled="1" border="1" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomout="0" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" zoomfov="40" delay="none"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control rubberband="0" zoomcentercursor="1" lockedmouse="0" contextvr="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" sensitivity="8" simulatemass="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0"/>
+    <transition softedge="0" zoomspeed="2" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" delay="none" enabled="1" type="crossdissolve" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control sensitivity="8" invertwheel="0" contextprojections="0" hideabout="0" speedwheel="1" rubberband="0" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" zoomcentercursor="1" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata comment="" title="Gallery_01" description="" copyright="" tags="" author=""/>
+    <userdata comment="" description="" author="" title="Gallery_01" copyright="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
+    <translations>
+      <json>{"languages":["en"],"projectLanguage":"zh-TW","translations":{"-- 日式枯山水拼盤 -- \n三色糯米丸子 x2 ＋甜醬油":[""],"2023/4/16 11:21":[""],"2023/4/16 11:26":[""],"2023/4/16 11:27":[""],"2023/4/16 11:28":[""],"2023/4/21 14:54":[""],"2023/4/21 14:58":[""],"Enter Fullscreen":[""],"Enter VR":[""],"Exit Fullscreen":[""],"Gallery_01":[""],"James Lee":[""],"jp-image.space":[""],"◻︎和菓子盛り合わせ（日式甜點拼盤）- $250\n    #鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅\n\n◻︎揚物盛り合わせ（日式鹹食拼盤）- $250\n   #奶油螃蟹＋綜合可樂餅 x2 \n\n◻︎最中餅盛り合わせ（和菓子DIY拼盤）- $250\n   #最中餅殼 x4 ＋萩餅 x2 ＋白玉丸子\n\n◻︎花見団子盛り合わせ（日式枯山水拼盤） - $180\n   #三色糯米丸子 x2 ＋甜醬油":["◻︎Wagashi assortment for tea - NT$250\n    #Salt-preserved sakura mochi + Sakura kudzu mochi + Kinako warabi mochi + Matcha warabi mochi\n\n◻︎Japanese savory platter - NT$250\n    #Creamy crab + Mixed croquettes\n\n◻︎"],"口味有：\n麻吉紅豆-- $150\n打啵起士-- $150\n一半一半-- $150":[""],"和菓子盛り合わせ（日式甜點拼盤）":[""],"咖啡":[""],"奶油螃蟹＋綜合可樂餅 x2 - $250":[""],"小京都。焦糖布丁 - $ 150":[""],"揚物盛り合わせ（日式鹹食拼盤)":[""],"斗財。深焙美式（濃厚榛果系）-（冰/熱）$110\n囍妹。淺焙美式（微酸果香系）-（冰/熱）$110\n有春。深焙拿鐵（濃郁回甘系）-（冰/熱）$130\n小春。淺焙拿鐵（清新微甜系）-（冰/熱）$130\n可樂。碳酸咖啡 - 冰 $130\n雪碧。碳酸咖啡 - 冰 $130\n義式。羅馬青檸 - 冰 $140\n日式。黃金青柚 - (冰/熱）$140\n黑柴黑糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160\n赤柴焦糖拿鐵（斗宅。揀茶舍限定）-（冰/熱）$160":[""],"柴田燒 (一盒6枚入）":[""],"洋菓子 ＃以現場販售為主":[""],"盛り合わせ（日式茶點拼盤）":["Japanese tea snacks platter"],"花見団子盛り合わせ":[""],"鹽漬櫻餅＋櫻花葛餅＋豆香蕨餅＋抹茶蕨餅 - $250":[""]}}</json>
+      <projecttranslation langcode="zh-TW" langname="繁體中文"/>
+      <projecttranslation langcode="en" langname="English"/>
+    </translations>
   </masternode>
 </tour>
